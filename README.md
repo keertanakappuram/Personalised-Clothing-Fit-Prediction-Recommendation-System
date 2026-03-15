@@ -29,7 +29,7 @@ The [Rent the Runway dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#cl
 | Logistic Regression + SMOTE | ~0.71 | ~0.54 |
 | PyTorch Neural Network | ~0.75 | ~0.58 |
 
-The linear SVM outperforms the neural network on this dataset — consistent with prior RecSys research showing TF-IDF captures fit signals more effectively than dense engineered features alone.
+The linear SVM outperforms the neural network on this dataset - consistent with prior RecSys research showing TF-IDF captures fit signals more effectively than dense engineered features alone.
 
 ### Ranking (PyTorch NN)
 
