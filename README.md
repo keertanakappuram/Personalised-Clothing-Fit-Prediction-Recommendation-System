@@ -1,4 +1,4 @@
-# 👗 Personalised Clothing Fit Prediction & Recommendation System
+# Personalised Clothing Fit Prediction & Recommendation System
 
 > Predicting whether clothing items run **Small, Fit, or Large** to reduce e-commerce return rates - trained on **192,000+ real [Rent The Runway](https://cseweb.ucsd.edu/~jmcauley/datasets.html#clothing_fit) rental transactions** with customer body profiles, product attributes, and review text.
 
@@ -6,18 +6,18 @@ The best model is served as a **production REST API** via FastAPI + Docker.
 
 ---
 
-## 🎯 Problem
+## Problem
 
 Clothing fit is one of the top reasons for e-commerce returns. Customers can't try items before buying, and size labels vary wildly across brands and categories. This project builds a personalized fit prediction system that combines customer body profiles, product attributes, and review text to predict the right size — before the customer buys.
 
 ---
-## 📦 Dataset
+## Dataset
 
 The [Rent the Runway dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#clothing_fit) contains 192,000+ clothing rental transactions with customer fit feedback, body measurements (height, weight, bust size), occasion, and review text — making it one of the richest publicly available datasets for clothing fit research.
 
 ---
 
-## 📊 Results
+## Results
 
 ### Classification
 
@@ -43,7 +43,7 @@ The linear SVM outperforms the neural network on this dataset - consistent with 
 
 ---
 
-## 🔍 Approach
+## Approach
 
 ### 1. Data Pipeline (PySpark)
 - Distributed preprocessing on 192K+ records via `spark_preprocessing.py`
@@ -74,7 +74,7 @@ The linear SVM outperforms the neural network on this dataset - consistent with 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -88,7 +88,7 @@ The linear SVM outperforms the neural network on this dataset - consistent with 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── src/
@@ -110,7 +110,7 @@ The linear SVM outperforms the neural network on this dataset - consistent with 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1 — Docker (recommended)
 ```bash
